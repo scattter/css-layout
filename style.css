@@ -12,3 +12,102 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+header {
+    position: relative;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+}
+
+header img {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    z-index: 999;
+    /* transform: translate(0,-50%); */
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+header h1 {
+    position: fixed;
+    top: 0;
+    /* left: 50%; */
+    line-height: 100px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    /* transform: translate(-50%,0); */
+    background-color: #000;
+    z-index: 99;
+}
+
+header nav {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    transform: translate(0,50%);
+    z-index: 999;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header ul li a{
+    color: #fff;
+}
+
+.description {
+    position: relative;
+    height: 850px;
+    margin: 0;
+    padding:  20px 100px;
+    background-color: rgb(233, 229, 229);
+}
+.description img,h2,.description-p2 {
+    float: left;
+}
+.description h2 {
+    margin: 10px 0;
+    padding: 0;
+    margin-left: 15px;
+}
+.description .description-p1 {
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    padding-right: 100px;
+    left: 740px;
+    top: 70px;
+}
+
+.relationship {
+    padding:  20px 100px;
+}
+.relationship img {
+    float: right;
+}
+.relationship h2 {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+.relationship .relationship-p1 {
+    left: 0;
+    margin: 20px 0;
+    padding: 0;
+    padding-top: 40px;
+}
+
+footer {
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #999;
+}
